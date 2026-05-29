@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useAuth } from "./context/AuthContext";
 import Dashboard from "./pages/Dashboard";
 import QuizPage from "./pages/QuizPage";
+import Dashboard from "./pages/Dashboard";
+import QuizPage from "./pages/QuizPage";
 
 export default function App() {
   const { user, login, logout } = useAuth();
